@@ -25,7 +25,7 @@ public class FlowingView extends View {
     private int topY;
     private int bottomY;
     private int downspeed = 1;
-    private boolean isupping = false;
+    private boolean isupping = false, trigger = false;
 
     private int autoUppingX;
 
@@ -36,6 +36,7 @@ public class FlowingView extends View {
     private double per = 0 ;
 
     private int rightMargin ;
+    protected LeftDrawerLayout.OnDrawerToggleListener mCallback;
 
     public enum Status {
         NONE,
@@ -51,7 +52,6 @@ public class FlowingView extends View {
 
     public FlowingView(Context context, AttributeSet attrs) {
         super(context, attrs);
-
         init();
     }
 
@@ -108,8 +108,8 @@ public class FlowingView extends View {
         valueAnimator.addListener(new FlowingAnimationListener() {
             @Override
             public void onAnimationEnd(Animator animation) {
-                    isupping = false;
-                    showContent = true;
+                isupping = false;
+                showContent = true;
             }
         });
         valueAnimator.setDuration(500);
@@ -184,7 +184,7 @@ public class FlowingView extends View {
             invalidate();
             return ;
         }else{
-             per = (2 * x - w) / w;
+            per = (2 * x - w) / w;
             autoUppingX = (int) (0.25 * w * per + 0.75 * w);
             currentPointX = (int) (100 * per + w);
         }
@@ -193,6 +193,9 @@ public class FlowingView extends View {
             if (showContent) {
                 showContent = false;
                 mMenuFragment.show(currentPointY) ;
+                if (!trigger && mCallback != null) mCallback.onToggle(true);
+                trigger = true;
+
             }
         }
         invalidate();
@@ -209,6 +212,8 @@ public class FlowingView extends View {
         showContent = true ;
         isupping  = false ;
         mMenuFragment.hideView();
+        if (trigger && mCallback != null) mCallback.onToggle(false);
+        trigger = false;
     }
 
     public void resetStatus(){
@@ -224,6 +229,10 @@ public class FlowingView extends View {
 
     public void setRightMargin(int rightMargin){
         this.rightMargin = rightMargin ;
+    }
+
+    public void setFlowingColor(int color){
+        mPaint.setColor(color);
     }
 
 }

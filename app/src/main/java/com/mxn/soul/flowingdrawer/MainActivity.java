@@ -1,6 +1,8 @@
 package com.mxn.soul.flowingdrawer;
 
+import android.graphics.Color;
 import android.os.Bundle;
+import android.support.design.widget.Snackbar;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
@@ -32,8 +34,18 @@ public class MainActivity extends AppCompatActivity {
         if (mMenuFragment == null) {
             fm.beginTransaction().add(R.id.id_container_menu, mMenuFragment = new MyMenuFragment()).commit();
         }
+        mFlowingView.setFlowingColor(Color.rgb(226, 211, 221));//pink light
         mLeftDrawerLayout.setFluidView(mFlowingView);
         mLeftDrawerLayout.setMenuFragment(mMenuFragment);
+
+        mLeftDrawerLayout.setListener(new LeftDrawerLayout.OnDrawerToggleListener() {
+            @Override
+            public void onToggle(boolean opened) {
+                String msg = opened ? "Opened!!!" : "Closed!";
+                Snackbar.make(mLeftDrawerLayout, "Drawer is " + msg, Snackbar.LENGTH_SHORT)
+                        .setAction("Action", null).show();
+            }
+        });
         setupFeed();
 
     }

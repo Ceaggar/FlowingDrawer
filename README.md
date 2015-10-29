@@ -18,10 +18,15 @@ Gradle:
     }
 
     dependencies {
-        compile 'com.mxn.soul:flowingdrawer-core:1.2.0'
+        compile 'com.mxn.soul:flowingdrawer-core:1.2.1'
     }
 ```
 
+## V1.2.1
++ External libraries updated.
++ Listener to Notify when the Drawer is opened or closed "setListener(OnDrawerToggleListener)"
++ Now! you can change FlowingView color using setFlowingColor();
++ You can touch outside the drawer to close it.
 
 ## V1.2
 

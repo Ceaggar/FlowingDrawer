@@ -49,6 +49,7 @@ public class LeftDrawerLayout extends ViewGroup {
     private ImageView mBg;
 
     private int rightMargin;
+    private OnDrawerToggleListener mCallback;
 
 
     public void setFluidView(FlowingView mFlowingView) {
@@ -294,8 +295,27 @@ public class LeftDrawerLayout extends ViewGroup {
             ViewGroup.LayoutParams lp =
                     new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
             mContentView.addView(mBg, lp);
+            mBg.setOnClickListener(new OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    closeDrawer();
+                }
+            });
         }
         ViewHelper.setAlpha(mBg, per);
         mBg.setClickable(per > 0);
+    }
+
+    /**
+     * To Notify when the Drawer is open or closed
+     * @throws FlowingView should be set before to use listener
+     * @param listener
+     */
+    public void setListener(OnDrawerToggleListener listener) {
+        mFlowingView.mCallback = listener;
+    }
+
+    public interface OnDrawerToggleListener {
+        void onToggle(boolean opened);
     }
 }
