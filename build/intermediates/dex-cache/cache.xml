@@ -2,39 +2,39 @@
 <items version="2" >
 
     <item
-        jar="/Users/celso/Desktop/FlowingDrawer/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.1.0/jars/classes.jar"
+        jar="/Users/celso/AndroidStudioProjects/FlowingDrawer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="d96886efea7cc74fbb3abd0e3b51d5638fc57be0">
-        <dex dex="/Users/celso/Desktop/FlowingDrawer/app/build/intermediates/pre-dexed/debug/classes-3a02971b6789a67e5d8ad7b36e46a067dcfcfe9f.jar" />
+        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
+        <dex dex="/Users/celso/AndroidStudioProjects/FlowingDrawer/app/build/intermediates/pre-dexed/debug/classes-0977055b12795cd035d074e0816ff8de51cd6aab.jar" />
     </item>
     <item
-        jar="/Users/celso/Desktop/FlowingDrawer/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/classes.jar"
+        jar="/Users/celso/AndroidStudioProjects/FlowingDrawer/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
-        <dex dex="/Users/celso/Desktop/FlowingDrawer/app/build/intermediates/pre-dexed/debug/classes-9eaf604d57e5c35ad68a14d99a8631d0c0f44ea8.jar" />
+        sha1="3f151e49c316a5ab2c065969a3b3b55ef9b393fc">
+        <dex dex="/Users/celso/AndroidStudioProjects/FlowingDrawer/app/build/intermediates/pre-dexed/debug/classes-52574a97e6445be89050b51f8b8a68638e97de4c.jar" />
     </item>
     <item
-        jar="/Users/celso/Desktop/FlowingDrawer/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/libs/internal_impl-23.1.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
-        <dex dex="/Users/celso/Desktop/FlowingDrawer/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.0-56682779b164fe437286488f2ce3372620852f19.jar" />
-    </item>
-    <item
-        jar="/Users/celso/Desktop/FlowingDrawer/app/build/intermediates/exploded-aar/com.mxn.soul/flowingdrawer-core/1.2.0/jars/libs/nineoldandroids-2.4.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
-        <dex dex="/Users/celso/Desktop/FlowingDrawer/app/build/intermediates/pre-dexed/debug/nineoldandroids-2.4.0-fe396bed7468cc63821a3295ef448e17b5dd09b4.jar" />
-    </item>
-    <item
-        jar="/Users/celso/Desktop/FlowingDrawer/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/jars/classes.jar"
+        jar="/Users/celso/AndroidStudioProjects/FlowingDrawer/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="19026d31f5d3ae868db81319671a642be5fbba08">
-        <dex dex="/Users/celso/Desktop/FlowingDrawer/app/build/intermediates/pre-dexed/debug/classes-13bc86dd396352b3891b766cde8911db19c93c7a.jar" />
+        <dex dex="/Users/celso/AndroidStudioProjects/FlowingDrawer/app/build/intermediates/pre-dexed/debug/classes-375e980756da442cdc673cc98929898daa4f02c4.jar" />
+    </item>
+    <item
+        jar="/Users/celso/AndroidStudioProjects/FlowingDrawer/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/libs/internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="/Users/celso/AndroidStudioProjects/FlowingDrawer/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.0-067fe9ece4b747b1067ed12128a00c331b3a1ebe.jar" />
+    </item>
+    <item
+        jar="/Users/celso/AndroidStudioProjects/FlowingDrawer/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d96886efea7cc74fbb3abd0e3b51d5638fc57be0">
+        <dex dex="/Users/celso/AndroidStudioProjects/FlowingDrawer/app/build/intermediates/pre-dexed/debug/classes-06ef3e8299b60c56acc745b929c1b3142f1c116c.jar" />
     </item>
     <item
         jar="/Users/celso/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.0/support-annotations-23.1.0.jar"
@@ -44,20 +44,6 @@
         <dex dex="/Users/celso/Desktop/FlowingDrawer/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.0-cfb4638b129b0390f3c5dc79ce990e1d81b91115.jar" />
     </item>
     <item
-        jar="/Users/celso/Desktop/FlowingDrawer/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="3f151e49c316a5ab2c065969a3b3b55ef9b393fc">
-        <dex dex="/Users/celso/Desktop/FlowingDrawer/app/build/intermediates/pre-dexed/debug/classes-32e8d434532c901e0872f0aa9088c9c3f4eda9b5.jar" />
-    </item>
-    <item
-        jar="/Users/celso/Desktop/FlowingDrawer/app/build/intermediates/exploded-aar/com.mxn.soul/flowingdrawer-core/1.2.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="38d666627ce75fe9d26c84c3ffddfb431a4a66e8">
-        <dex dex="/Users/celso/Desktop/FlowingDrawer/app/build/intermediates/pre-dexed/debug/classes-57be52dacb806641352da635b85968526c5c5841.jar" />
-    </item>
-    <item
         jar="/Users/celso/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.0/7ff0e000d1e27e356567f56c92af3b8ab912636f/picasso-2.5.0.jar"
         jumboMode="false"
         revision="22.0.1"
@@ -65,11 +51,25 @@
         <dex dex="/Users/celso/Desktop/FlowingDrawer/app/build/intermediates/pre-dexed/debug/picasso-2.5.0-87b37ef698cb6150a09787717c3caf3a1d6d7ae7.jar" />
     </item>
     <item
-        jar="/Users/celso/Desktop/FlowingDrawer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/jars/classes.jar"
+        jar="/Users/celso/AndroidStudioProjects/FlowingDrawer/app/build/intermediates/exploded-aar/com.mxn.soul/flowingdrawer-core/1.2.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
-        <dex dex="/Users/celso/Desktop/FlowingDrawer/app/build/intermediates/pre-dexed/debug/classes-b51bcd3b8108e4856acd868870c2db72420d21e7.jar" />
+        sha1="82cbeabce182120daf350fcc110f7671425312a1">
+        <dex dex="/Users/celso/AndroidStudioProjects/FlowingDrawer/app/build/intermediates/pre-dexed/debug/classes-61c74e07db2553ba00e948c798a59dcb464d097e.jar" />
+    </item>
+    <item
+        jar="/Users/celso/AndroidStudioProjects/FlowingDrawer/app/build/intermediates/exploded-aar/com.mxn.soul/flowingdrawer-core/1.2.0/jars/libs/nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="/Users/celso/AndroidStudioProjects/FlowingDrawer/app/build/intermediates/pre-dexed/debug/nineoldandroids-2.4.0-bd4ba36309db85f6a5a8294791e0a5443ca89617.jar" />
+    </item>
+    <item
+        jar="/Users/celso/AndroidStudioProjects/FlowingDrawer/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="/Users/celso/AndroidStudioProjects/FlowingDrawer/app/build/intermediates/pre-dexed/debug/classes-abd48ab1c0e514f6895435c181b5fd2d220e427f.jar" />
     </item>
 
 </items>
